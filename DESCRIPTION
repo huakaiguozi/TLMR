@@ -1,0 +1,36 @@
+Package: TLMR
+Title: Transfer Learning based Mendelian Randomization Package
+Version: 0.1.0
+Authors@R: person("Yun", "Wei", email = "yw86023@outlook.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2623-0221"))
+Description: This package implements TLMR method for Mendelian randomization analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Imports:
+    ggplot2,
+    fixest,
+    TwoSampleMR,
+    mr.raps,
+    MendelianRandomization,
+    penalized,
+    data.table,
+    tidyr,
+    nloptr,
+    ggpubr,
+    glmnet,
+    MASS,
+    FNN,
+    dplyr,
+    ks,
+    car,
+    ridge,
+    np,
+    RColorBrewer,
+    Genshinpalette,
+    ggGenshin,
+    foreach,
+    parallel,
+    doParallel,
+    boot,
+    metafor,
+    purrr
